@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #000103;
+  --color-soft-gray: #bfbfbf;
+  --color-gray: #efefef;
+  --color-text-hover: #457593;
+  --color-soft-blue: #457593;
+  --color-light-blue: #94a3b8;
+}
+
+body {
+  @apply bg-[var(--color-bg)] text-gray;
+}

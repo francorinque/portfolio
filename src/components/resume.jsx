@@ -29,11 +29,11 @@ export const Resume = () => {
             <Github size={24} />
             Github
           </ButtonSocial>
-          <ButtonSocial href="https://github.com/FrancoRinque">
+          <ButtonSocial href="https://linkedin.com/in/francorinque">
             <Linkedin size={24} />
             Linkedin
           </ButtonSocial>
-          <ButtonSocial href="https://github.com/FrancoRinque">
+          <ButtonSocial href="mailto:francoagustinrinquecorreo@gmail.com">
             <Mail size={24} />
             Correo
           </ButtonSocial>

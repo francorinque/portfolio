@@ -10,7 +10,7 @@ export const Projects = () => {
         <h2 className="text-3xl font-bold">Proyectos</h2>
       </div>
 
-      <section className="mt-10">
+      <section className="mt-10 space-y-10">
         {projects.map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}

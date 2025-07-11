@@ -4,3 +4,4 @@ export * from "./projects";
 
 //common
 export * from "./common/buttonSocial";
+export * from "./common/buttonCustom";

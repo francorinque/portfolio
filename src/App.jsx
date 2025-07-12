@@ -7,7 +7,7 @@ function App() {
   return (
     <section className="min-h-screen">
       <Nav />
-      <main className="max-w-[900px] mx-auto mt-40 px-4 lg:px-0">
+      <main className="max-w-[900px] mx-auto mt-40 px-4 lg:px-0 space-y-6">
         <Resume />
         <Projects />
         <Aboutme />

@@ -10,10 +10,10 @@ export const ProjectCard = ({
   projectLink,
 }) => {
   return (
-    <div className="bg-black rounded-xl p-4 text-white space-y-4 shadow-lg border border-white/10">
+    <div className="bg-black rounded-xl p-4 text-white space-y-4 border border-white/10">
       {/* Título y subtítulo */}
       <div>
-        <h2 className="text-2xl font-bold text-soft-yellow">{title}</h2>
+        <h2 className="text-2xl font-bold text-light-blue">{title}</h2>
         <p className="mt-2 text-xl text-soft-gray">{description}</p>
       </div>
 
@@ -22,7 +22,7 @@ export const ProjectCard = ({
         {techs.map((tech) => (
           <span
             key={tech}
-            className="bg-white/5 border border-white/10 px-3 py-1 rounded-full text-xs text-soft-blue"
+            className="bg-white/5 border border-white/10 px-3 py-1 rounded-full text-xs text-soft-gray"
           >
             {tech}
           </span>
@@ -30,7 +30,7 @@ export const ProjectCard = ({
       </div>
 
       {/* Imagen del proyecto */}
-      <div className="overflow-hidden rounded-lg aspect-video">
+      <div className="overflow-hidden rounded-xl aspect-video">
         <img
           src={image}
           alt={`Captura de ${title}`}

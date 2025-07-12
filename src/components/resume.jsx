@@ -15,7 +15,7 @@ export const Resume = () => {
       <div className="flex flex-col gap-3">
         <div className="flex flex-col  items-start md:flex-row md:items-center gap-3">
           <h1 className="text-3xl font-bold">Hola, soy Franco Rinque</h1>
-          <span className="px-3 border border-indigo-200 text-indigo-100 rounded-full text-sm">
+          <span className="px-3 border border-green-200 text-green-100 rounded-full text-sm">
             Disponible para trabajar
           </span>
         </div>
@@ -29,11 +29,11 @@ export const Resume = () => {
             <Github size={24} />
             Github
           </ButtonSocial>
-          <ButtonSocial href="https://github.com/FrancoRinque">
+          <ButtonSocial href="https://linkedin.com/in/francorinque">
             <Linkedin size={24} />
             Linkedin
           </ButtonSocial>
-          <ButtonSocial href="https://github.com/FrancoRinque">
+          <ButtonSocial href="mailto:francoagustinrinquecorreo@gmail.com">
             <Mail size={24} />
             Correo
           </ButtonSocial>

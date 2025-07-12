@@ -7,8 +7,13 @@
   --color-text-hover: #457593;
   --color-soft-blue: #457593;
   --color-light-blue: #94a3b8;
+  --color-soft-yellow: #fef9c3;
 }
 
 body {
   @apply bg-[var(--color-bg)] text-gray;
+}
+
+html {
+  scroll-behavior: smooth;
 }

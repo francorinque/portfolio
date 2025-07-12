@@ -18,7 +18,7 @@ const LINKS = [
 
 export const Nav = () => {
   return (
-    <header>
+    <header className="fixed top-0 left-0 w-full bg-black/50 backdrop-blur">
       <nav className="container mx-auto h-20">
         <ul className="h-full flex items-center gap-6 justify-center">
           {LINKS.map((link) => (

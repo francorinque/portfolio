@@ -8,6 +8,7 @@ export const ProjectCard = ({
   image,
   codeLink,
   projectLink,
+  video,
 }) => {
   return (
     <div className="bg-black rounded-xl p-4 text-white space-y-4 border border-white/10">
@@ -31,24 +32,30 @@ export const ProjectCard = ({
 
       {/* Imagen del proyecto */}
       <div className="overflow-hidden rounded-xl aspect-video">
-        <img
-          src={image}
-          alt={`Captura de ${title}`}
-          className="w-full h-full object-cover"
-        />
+        {video ? (
+          <video src={video} controls className="w-full h-full object-cover" />
+        ) : (
+          <img
+            src={image}
+            alt={`Captura de ${title}`}
+            className="w-full h-full object-cover"
+          />
+        )}
       </div>
 
       {/* Botones de acción */}
-      <div className="flex gap-4 justify-center mt-2">
-        <ButtonCustom href={codeLink}>
-          <Github />
-          Ver Código
-        </ButtonCustom>
-        <ButtonCustom href={projectLink}>
-          <Eye />
-          Ver Proyecto
-        </ButtonCustom>
-      </div>
+      {!video && (
+        <div className="flex gap-4 justify-center mt-2">
+          <ButtonCustom href={codeLink}>
+            <Github />
+            Ver Código
+          </ButtonCustom>
+          <ButtonCustom href={projectLink}>
+            <Eye />
+            Ver Proyecto
+          </ButtonCustom>
+        </div>
+      )}
     </div>
   );
 };

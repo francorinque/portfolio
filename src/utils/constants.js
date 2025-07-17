@@ -30,7 +30,7 @@ export const projects = [
     id: 3,
     title: "Twitch Subscription",
     description:
-      "Una demo, que permite la subscripción de Twitch en varios canales con un solo click.",
+      "Prototipo personal que demuestra el concepto de suscripción a múltiples canales de Twitch con un solo clic, diseñado para optimizar la experiencia del usuario.",
     techs: ["HTML", "CSS", "JavaScript"],
     image: twitch,
     codeLink: "https://github.com/francorinque/twitch-subscription",

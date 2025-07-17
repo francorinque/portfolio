@@ -6,17 +6,6 @@ import mibutacaVideo from "../assets/projects/mibutaca.mp4";
 export const projects = [
   {
     id: 1,
-    title: "Mi butaca",
-    description:
-      "Desarrollo de una aplicación web para la venta de boletos de eventos, como parte de una pasantía coordinada por Academia Henry.",
-    techs: ["React", "Redux Toolkit", "CSS"],
-    image: null,
-    codeLink: "https://github.com/francorinque/RMovies",
-    projectLink: "https://r-movies-two.vercel.app/",
-    video: mibutacaVideo,
-  },
-  {
-    id: 2,
     title: "RMovies",
     description:
       "Una aplicación web para buscar películas y series, integrando la API de TMDB.",
@@ -27,7 +16,7 @@ export const projects = [
     video: null,
   },
   {
-    id: 3,
+    id: 2,
     title: "RNews",
     description:
       "Una web de noticias en línea, integrando la API de New York Times.",
@@ -38,7 +27,7 @@ export const projects = [
     video: null,
   },
   {
-    id: 4,
+    id: 3,
     title: "Twitch Subscription",
     description:
       "Una demo, que permite la subscripción de Twitch en varios canales con un solo click.",
@@ -47,5 +36,16 @@ export const projects = [
     codeLink: "https://github.com/francorinque/twitch-subscription",
     projectLink: "https://twitch-subscription.vercel.app/",
     video: null,
+  },
+  {
+    id: 4,
+    title: "Mi butaca",
+    description:
+      "E-commerce desarrollado durante mi pasantía en la Academia Henry. Aunque el deploy ya no está activo debido a la finalización del programa de pasantía y la suspensión del servicio de hosting utilizado, el video muestra las principales funcionalidades.",
+    techs: ["React", "Redux Toolkit", "CSS"],
+    image: null,
+    codeLink: "https://github.com/francorinque/RMovies",
+    projectLink: "https://r-movies-two.vercel.app/",
+    video: mibutacaVideo,
   },
 ];

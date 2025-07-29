@@ -20,10 +20,11 @@ export const Resume = () => {
           </span>
         </div>
         <p className="text-pretty text-soft-gray text-2xl">
-          Desarrollador Web Frontend desde Buenos Aires, Argentina, con 1.6 años
-          de experiencia en Synergiart (España) y 4 años en proyectos
-          independientes. Especializado en crear aplicaciones web dinámicas y
-          centradas en el usuario.
+          Desarrollador Web Frontend desde Buenos Aires, Argentina, con
+          alrededor de 3 años de experiencia práctica, incluyendo 1 año y medio
+          de experiencia laboral profesional en Synergiart (España).
+          Especializado en crear aplicaciones web dinámicas y centradas en el
+          usuario.
         </p>
 
         <div className="flex gap-3  items-center">

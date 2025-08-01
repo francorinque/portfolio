@@ -19,7 +19,7 @@ export const Resume = () => {
         duration: 1,
         rotation: 0,
         ease: "power1",
-      },
+      }
     );
   }, []);
 
@@ -52,7 +52,7 @@ export const Resume = () => {
             <Github size={24} />
             Github
           </ButtonSocial>
-          <ButtonSocial href="https://linkedin.com/in/francorinque">
+          <ButtonSocial href="https://www.linkedin.com/in/franco-agustin-rinque/">
             <Linkedin size={24} />
             Linkedin
           </ButtonSocial>

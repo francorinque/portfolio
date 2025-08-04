@@ -40,11 +40,12 @@ export const Resume = () => {
           </span>
         </div>
         <p className="text-pretty text-soft-gray text-2xl">
-          Actualmente cuento con más de 3 años de experiencia creando interfaces
-          modernas y funcionales con React y Tailwind CSS. Me apasiona construir
-          productos usables y escalables, priorizando la experiencia del usuario
-          y el código limpio. Me destaco por mi iniciativa para desarrollar
-          soluciones que optimicen procesos y reduzcan tiempos.
+          Desarrollador de software enfocado en crear interfaces modernas,
+          responsivas y centradas en la experiencia del usuario. Me destaco por
+          mi atención al detalle y compromiso con la fidelidad visual, cuidando
+          cada píxel en la implementación del diseño. Además, tengo experiencia
+          en el desarrollo de APIs mantenibles y escalables, aportando a
+          soluciones robustas tanto en frontend como en backend.
         </p>
 
         <div className="flex gap-3  items-center">

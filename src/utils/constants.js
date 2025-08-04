@@ -2,10 +2,24 @@ import rmovies from "../assets/projects/rmovies.png";
 import rnews from "../assets/projects/rnews.png";
 import twitch from "../assets/projects/twitch.png";
 import mibutacaVideo from "../assets/projects/mibutaca.mp4";
+import iphone from "../assets/projects/iphone.png";
+
+import { v4 as uuid } from "uuid";
 
 export const projects = [
   {
-    id: 1,
+    id: uuid(),
+    title: "Iphone Website",
+    description:
+      "Replica de la web oficial de Apple, desarrollada con React y Gsap.",
+    techs: ["React", "Gsap", "Tailwind CSS"],
+    image: iphone,
+    codeLink: "https://github.com/francorinque/Iphone-website",
+    projectLink: "https://iphone-website-chi.vercel.app/",
+    video: null,
+  },
+  {
+    id: uuid(),
     title: "RMovies",
     description:
       "Una aplicación web para buscar películas y series, integrando la API de TMDB.",
@@ -16,7 +30,7 @@ export const projects = [
     video: null,
   },
   {
-    id: 2,
+    id: uuid(),
     title: "RNews",
     description:
       "Una web de noticias en línea, integrando la API de New York Times.",
@@ -27,7 +41,7 @@ export const projects = [
     video: null,
   },
   {
-    id: 3,
+    id: uuid(),
     title: "Twitch Subscription",
     description:
       "Prototipo personal que demuestra el concepto de suscripción a múltiples canales de Twitch con un solo clic, diseñado para optimizar la experiencia del usuario.",
@@ -38,7 +52,7 @@ export const projects = [
     video: null,
   },
   {
-    id: 4,
+    id: uuid(),
     title: "Mi butaca",
     description:
       "E-commerce desarrollado durante mi pasantía en la Academia Henry. Aunque el deploy ya no está activo debido a la finalización del programa de pasantía y la suspensión del servicio de hosting utilizado, el video muestra las principales funcionalidades.",

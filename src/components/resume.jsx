@@ -40,11 +40,11 @@ export const Resume = () => {
           </span>
         </div>
         <p className="text-pretty text-soft-gray text-2xl">
-          Desarrollador Web Frontend desde Buenos Aires, Argentina, con
-          alrededor de 3 años de experiencia práctica, incluyendo 1 año y medio
-          de experiencia laboral profesional en Synergiart (España).
-          Especializado en crear aplicaciones web dinámicas y centradas en el
-          usuario.
+          Actualmente cuento con más de 3 años de experiencia creando interfaces
+          modernas y funcionales con React y Tailwind CSS. Me apasiona construir
+          productos usables y escalables, priorizando la experiencia del usuario
+          y el código limpio. Me destaco por mi iniciativa para desarrollar
+          soluciones que optimicen procesos y reduzcan tiempos.
         </p>
 
         <div className="flex gap-3  items-center">

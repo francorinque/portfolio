@@ -11,7 +11,10 @@ export const ProjectCard = ({
   video,
 }) => {
   return (
-    <div className="bg-black rounded-xl p-4 text-white space-y-4 border border-white/10">
+    <div
+      className="bg-black rounded-xl p-4 text-white space-y-4 border border-white/10"
+      id="card"
+    >
       {/* Título y subtítulo */}
       <div>
         <h2 className="text-2xl font-bold text-light-blue">{title}</h2>

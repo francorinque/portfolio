@@ -48,7 +48,7 @@ export const Resume = () => {
           soluciones robustas tanto en frontend como en backend.
         </p>
 
-        <div className="flex gap-3  items-center">
+        <div className="flex gap-3  items-center mt-4">
           <ButtonSocial href="https://github.com/FrancoRinque">
             <Github size={24} />
             Github

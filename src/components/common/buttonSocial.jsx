@@ -14,7 +14,7 @@ export const ButtonSocial = ({ href, children }) => {
        animate-shimmer pointer-events-none"
       />
       {/* Contenido */}
-      <span className="relative z-10 flex items-center gap-2 text-light-blue">
+      <span className="relative z-10 flex items-center gap-2 text-light-blue md:text-[16px] sm:text-sm">
         {children}
       </span>
     </a>

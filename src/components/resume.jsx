@@ -40,15 +40,14 @@ export const Resume = () => {
           </span>
         </div>
         <p className="text-pretty text-soft-gray text-2xl">
-          Desarrollador de software enfocado en crear interfaces modernas,
-          responsivas y centradas en la experiencia del usuario. Me destaco por
-          mi atención al detalle y compromiso con la fidelidad visual, cuidando
-          cada píxel en la implementación del diseño. Además, tengo experiencia
-          en el desarrollo de APIs mantenibles y escalables, aportando a
-          soluciones robustas tanto en frontend como en backend.
+          Desarrollador de software con experiencia en interfaces modernas y
+          responsivas, cuidando cada detalle para garantizar la mejor
+          experiencia de usuario. También desarrollo APIs escalables y
+          mantenibles, ofreciendo soluciones sólidas tanto en frontend como en
+          backend.
         </p>
 
-        <div className="flex gap-3  items-center mt-4">
+        <div className="flex gap-3  items-center mt-4 flex-wrap">
           <ButtonSocial href="https://github.com/FrancoRinque">
             <Github size={24} />
             Github
